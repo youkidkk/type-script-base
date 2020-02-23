@@ -1,6 +1,8 @@
-# NPM パッケージ インストール
+# TypeScript ベースプロジェクト
 
-## TypeScript
+## ■ NPM パッケージ インストール
+
+### ● TypeScript
 
 * typescript
 * @types/node@12.12.28
@@ -9,7 +11,7 @@
 
 > npm install --save-dev typescript @types/node@12.12.28 ts-node tsconfig-paths
 
-## ESLint
+### ● ESLint
 
 * eslint
 * prettier
@@ -20,7 +22,7 @@
 
 > npm install --save-dev eslint prettier eslint-config-prettier eslint-plugin-prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser
 
-## テスト
+### ● テスト
 
 * mocha
 * @types/mocha
