@@ -13,6 +13,12 @@
             "TS_NODE_IGNORE": "false"
         }
     }, {
+        "name": "mocha: Current File",
+        "type": "node",
+        "request": "launch",
+        "args": ["node_modules/mocha/bin/mocha", "-r", "ts-node/register", "${file}"],
+        "cwd": "${workspaceRoot}",
+    }, {
         "type": "node",
         "request": "launch",
         "name": "Node.js: Current File",
