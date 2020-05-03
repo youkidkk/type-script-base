@@ -11,7 +11,8 @@
         "internalConsoleOptions": "openOnSessionStart",
         "env": {
             "TS_NODE_IGNORE": "false"
-        }
+        },
+        "outputCapture": "std",
     }, {
         "name": "mocha: Current File",
         "type": "node",
@@ -27,6 +28,7 @@
         "preLaunchTask": "build",
         "env": {
             "NODE_PATH": "./build"
-        }
+        },
+        "outputCapture": "std",
     }]
 }

@@ -4,5 +4,6 @@
     },
     "[typescript]": {
         "editor.tabSize": 2,
-    }
+    },
+    "terminal.integrated.shell.windows": null
 }
