@@ -5,5 +5,5 @@
     "[typescript]": {
         "editor.tabSize": 2,
     },
-    "terminal.integrated.shell.windows": null
+    "terminal.integrated.shell.windows": null,
 }
