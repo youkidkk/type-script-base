@@ -4,6 +4,8 @@
   "private": true,
   "description": "TypeScript project base.",
   "scripts": {
+    "dev": "ts-node-dev --respawn --transpileOnly src/index.ts",
+    "dev:debug": "ts-node-dev --inspect=4321 --respawn --transpileOnly src/index.ts",
     "test": "mocha -r ts-node/register -r tsconfig-paths/register test/**/*.ts",
     "coverage": "nyc npm run test"
   },
@@ -20,7 +22,7 @@
     "mocha": "^7.0.1",
     "nyc": "^15.0.0",
     "prettier": "^1.19.1",
-    "ts-node": "^8.6.2",
+    "ts-node-dev": "^1.0.0-pre.49",
     "tsconfig-paths": "^3.9.0",
     "typemoq": "^2.1.0",
     "typescript": "^3.8.2"

@@ -3,12 +3,11 @@
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
         "plugin:@typescript-eslint/eslint-recommended",
-
         "plugin:prettier/recommended",
         "prettier/@typescript-eslint"
     ],
     "plugins": [
-        "@typescript-eslint"
+        "prettier/@typescript-eslint"
     ],
     "parser": "@typescript-eslint/parser",
     "env": {
@@ -36,6 +35,9 @@
             }
         ],
         "indent": "off",
-        "@typescript-eslint/indent": ["error", 2]
+        "@typescript-eslint/indent": [
+            "error",
+            2
+        ]
     }
 }
